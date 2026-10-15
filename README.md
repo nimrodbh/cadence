@@ -40,6 +40,7 @@ Offline, every scenario runs a golden trajectory (must pass) and a deliberately 
 ```bash
 pip install -e ".[dev]"
 pytest -q                              # 31 tests
+python -m cadence.demo                 # watch the agent loop step by step, no API key needed
 python -m cadence.mcp_server           # MCP server on stdio
 ```
 
